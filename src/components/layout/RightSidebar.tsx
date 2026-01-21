@@ -70,7 +70,6 @@ export function RightSidebar() {
 
       <div className="flex-1 overflow-y-auto p-4 space-y-6">
 
-        {/* LAYOUT TAB */}
         {activeTab === 'layout' && (
           <div className="space-y-4">
             <Section title="Display">
@@ -113,7 +112,6 @@ export function RightSidebar() {
           </div>
         )}
 
-        {/* SIZE TAB */}
         {activeTab === 'size' && (
           <div className="space-y-4">
             <Section title="Dimensions">
@@ -129,7 +127,6 @@ export function RightSidebar() {
           </div>
         )}
 
-        {/* STYLE TAB */}
         {activeTab === 'style' && (
           <div className="space-y-4">
             <Section title="Background">
@@ -166,7 +163,6 @@ export function RightSidebar() {
           </div>
         )}
 
-        {/* TEXT TAB */}
         {activeTab === 'text' && (
           <div className="space-y-4">
             <Section title="Typography">

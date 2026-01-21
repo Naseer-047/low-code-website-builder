@@ -43,7 +43,6 @@ export default function App() {
         addNode(type, parentId);
       }
     } else {
-      // It's a canvas node move
       if (active.id !== over.id) {
         moveNode(active.id as string, over.id as string);
       }
