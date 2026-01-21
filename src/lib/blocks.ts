@@ -1,9 +1,8 @@
 import {
-  Layout, Type, MousePointer2, Image, Square, AlignLeft, BoxSelect, CheckSquare, PlaySquare, ShieldAlert,
-  CreditCard, User, Menu, Phone, Mail, MapPin, ArrowRight, Star, Check, X, ChevronDown, Facebook, Twitter, Instagram,
-  Linkedin, Github, Search, ShoppingCart, Bell, Calendar, Clock, Eye, Heart, Share2, ThumbsUp, MessageCircle,
-  AlertTriangle, Info, HelpCircle, Settings, LogOut, LogIn, ExternalLink, Download, Upload, Cloud, Database,
-  Server, Activity, BarChart, PieChart, TrendingUp, DollarSign, Briefcase, Award, Gift, Zap, List
+  Layout, Type, Image, Square, AlignLeft, CheckSquare, PlaySquare,
+  CreditCard, User, Menu, Mail, MessageCircle,
+  AlertTriangle, HelpCircle, LogIn,
+  BarChart, Zap, List
 } from 'lucide-react';
 import type { Block, CanvasNode, ElementType } from '@/types/editor';
 

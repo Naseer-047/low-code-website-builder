@@ -1,18 +1,11 @@
-import type { CSSProperties } from "react";
-import type { UniqueIdentifier } from '@dnd-kit/core';
 import type { LucideIcon } from 'lucide-react';
 
 export type ElementType =
-  // Layout
-  | 'container' | 'section' | 'grid-row' | 'grid-col' | 'card' | 'divider'
-  // Typography
-  | 'text' | 'h1' | 'h2' | 'h3' | 'paragraph' | 'blockquote' | 'link' | 'label'
-  // Forms
-  | 'button' | 'input' | 'textarea' | 'select' | 'checkbox' | 'radio'
-  // Media
+  | 'text' | 'container' | 'section' | 'grid-row' | 'grid-col' | 'card'
+  | 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'paragraph' | 'blockquote' | 'link' | 'label'
   | 'image' | 'video' | 'avatar'
-  // UI
-  | 'badge' | 'alert';
+  | 'button' | 'input' | 'textarea' | 'select' | 'checkbox' | 'radio'
+  | 'divider' | 'badge' | 'alert';
 
 export interface CanvasNode {
   id: string;

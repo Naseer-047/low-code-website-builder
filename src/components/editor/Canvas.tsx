@@ -111,6 +111,9 @@ function Renderer({ node, selectedId, onSelect }: { node: CanvasNode; selectedId
   if (node.type === 'h1') return <h1 ref={setNodeRef} {...commonProps}>{node.props.content}</h1>;
   if (node.type === 'h2') return <h2 ref={setNodeRef} {...commonProps}>{node.props.content}</h2>;
   if (node.type === 'h3') return <h3 ref={setNodeRef} {...commonProps}>{node.props.content}</h3>;
+  if (node.type === 'h4') return <h4 ref={setNodeRef} {...commonProps}>{node.props.content}</h4>;
+  if (node.type === 'h5') return <h5 ref={setNodeRef} {...commonProps}>{node.props.content}</h5>;
+  if (node.type === 'h6') return <h6 ref={setNodeRef} {...commonProps}>{node.props.content}</h6>;
   if (node.type === 'paragraph') return <p ref={setNodeRef} {...commonProps}>{node.props.content}</p>;
   if (node.type === 'blockquote') return <blockquote ref={setNodeRef} {...commonProps}>{node.props.content}</blockquote>;
   if (node.type === 'link') return <a ref={setNodeRef} {...commonProps} onClick={(e) => { e.preventDefault(); handleClick(e); }}>{node.props.content}</a>;
